@@ -7,7 +7,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringRestIntegrationApp Maven Webapp</name>
 	<url>http://maven.apache.org</url>
-
+	<groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-resources-plugin</artifactId>
+            <version>2.6</version>
+            	<configuration>
+                	<encoding>UTF-8</encoding>
+            	</configuration>
 	<properties>
 		<springframework.version>4.3.0.RELEASE</springframework.version>
 		<jackson.library>2.7.5</jackson.library>
